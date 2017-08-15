@@ -2,8 +2,6 @@
 layout: default
 title: Training
 permalink: /training/
-redirect_from:
-  - /training.html
 sitemap:
     priority: 0.7
     lastmod: 2014-08-27T00:00:00-00:00

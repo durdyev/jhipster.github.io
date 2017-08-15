@@ -2,8 +2,6 @@
 layout: default
 title: Deploying to Kubernetes
 permalink: /kubernetes/
-redirect_from:
-  - /kubernetes.html
 sitemap:
     priority: 0.7
     lastmod: 2016-08-12T00:00:00-00:00

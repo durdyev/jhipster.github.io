@@ -2,8 +2,6 @@
 layout: default
 title: Meetups
 permalink: /meetups/
-redirect_from:
-  - /meetups.html
 sitemap:
     priority: 0.7
     lastmod: 2017-05-15T00:00:00-00:00

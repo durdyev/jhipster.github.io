@@ -2,8 +2,6 @@
 layout: default
 title: Shell plugins
 permalink: /shell-plugins/
-redirect_from:
-  - /shell-plugins.html
 sitemap:
     priority: 0.7
     lastmod: 2016-08-14T18:40:00-00:00

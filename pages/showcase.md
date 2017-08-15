@@ -2,8 +2,6 @@
 layout: default
 title: Showcase
 permalink: /showcase/
-redirect_from:
-  - /showcase.html
 sitemap:
     priority: 0.8
     lastmod: 2014-10-18T00:00:00-00:00

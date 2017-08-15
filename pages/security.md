@@ -2,8 +2,6 @@
 layout: default
 title: Security
 permalink: /security/
-redirect_from:
-  - /security.html
 sitemap:
     priority: 0.7
     lastmod: 2015-01-27T00:00:00-00:00

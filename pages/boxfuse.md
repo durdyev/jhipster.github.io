@@ -2,8 +2,6 @@
 layout: default
 title: Deploying to AWS with Boxfuse
 permalink: /boxfuse/
-redirect_from:
-  - /boxfuse.html
 sitemap:
     priority: 0.7
     lastmod: 2016-08-22T00:00:00-00:00

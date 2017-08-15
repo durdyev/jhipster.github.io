@@ -2,8 +2,6 @@
 layout: default
 title: Deploying to AWS with Elastic Beanstalk
 permalink: /aws/
-redirect_from:
-  - /aws.html
 sitemap:
     priority: 0.7
     lastmod: 2016-09-04T00:00:00-00:00

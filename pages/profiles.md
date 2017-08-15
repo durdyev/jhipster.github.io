@@ -2,8 +2,6 @@
 layout: default
 title: Profiles
 permalink: /profiles/
-redirect_from:
-  - /profiles.html
 sitemap:
     priority: 0.7
     lastmod: 2014-11-26T00:00:00-00:00

@@ -2,8 +2,6 @@
 layout: default
 title: Using JHipster in development
 permalink: /development/
-redirect_from:
-  - /development.html
 sitemap:
     priority: 0.7
     lastmod: 2016-12-01T00:00:00-00:00

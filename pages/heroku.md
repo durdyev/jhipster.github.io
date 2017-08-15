@@ -2,8 +2,6 @@
 layout: default
 title: Deploying to Heroku
 permalink: /heroku/
-redirect_from:
-  - /heroku.html
 sitemap:
     priority: 0.7
     lastmod: 2014-09-08T00:00:00-00:00

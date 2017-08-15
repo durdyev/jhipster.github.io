@@ -2,8 +2,6 @@
 layout: default
 title: Community help
 permalink: /help/
-redirect_from:
-  - /help.html
 sitemap:
     priority: 0.7
     lastmod: 2014-08-27T00:00:00-00:00

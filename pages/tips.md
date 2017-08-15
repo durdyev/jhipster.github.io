@@ -2,8 +2,6 @@
 layout: default
 title: Tips'n tricks
 permalink: /tips/
-redirect_from:
-  - /tips.html
 sitemap:
     priority: 0.7
     lastmod: 2017-04-27T08:40:00-00:00

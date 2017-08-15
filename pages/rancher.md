@@ -2,8 +2,6 @@
 layout: default
 title: Deploying to Rancher
 permalink: /rancher/
-redirect_from:
-  - /rancher.html
 sitemap:
     priority: 0.7
     lastmod: 2017-02-27T00:00:00-00:00

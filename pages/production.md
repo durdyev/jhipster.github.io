@@ -2,8 +2,6 @@
 layout: default
 title: Using JHipster in production
 permalink: /production/
-redirect_from:
-  - /production.html
 sitemap:
     priority: 0.7
     lastmod: 2014-02-17T00:00:00-00:00
