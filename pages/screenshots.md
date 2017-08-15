@@ -2,8 +2,6 @@
 layout: default
 title: Screenshots of the generated application
 permalink: /screenshots/
-redirect_from:
-  - /screenshots.html
 sitemap:
     priority: 0.8
     lastmod: 2014-02-17T00:00:00-00:00

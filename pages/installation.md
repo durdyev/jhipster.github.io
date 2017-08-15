@@ -2,8 +2,6 @@
 layout: default
 title: Installing JHipster
 permalink: /installation/
-redirect_from:
-  - /installation.html
 sitemap:
     priority: 0.7
     lastmod: 2016-12-21T00:00:00-00:00

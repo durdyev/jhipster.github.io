@@ -2,8 +2,6 @@
 layout: default
 title: Release notes
 permalink: /releases/
-redirect_from:
-  - /releases.html
 sitemap:
     priority: 0.4
     lastmod: 2014-02-17T00:00:00-00:00
