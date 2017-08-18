@@ -6,57 +6,57 @@ redirect_from:
   - /tech_stack.html
 sitemap:
     priority: 0.8
-    lastmod: 2014-05-16T00:00:00-00:00
+    lastmod: 2017-08-18T00:00:00-00:00
 ---
 
-# <i class="fa fa-stack-overflow"></i> Technology stack
+# <i class="fa fa-stack-overflow"></i> Стэк технологий
 
-## Technology stack on the client side
+## Стэк технологий на клиентской стороне
 
-Single Web page application:
+Веб приложения с одной страницей (SPA):
 
-*   [AngularJS v1.x](http://angularjs.org/) or [Angular 4](https://angular.io/)
-*   Responsive Web Design with [Twitter Bootstrap](http://getbootstrap.com/)
+*   [AngularJS v1.x](http://angularjs.org/) или [Angular 4](https://angular.io/)
+*   Оптимизированный Веб дизайн с помощью [Twitter Bootstrap](http://getbootstrap.com/)
 *   [HTML5 Boilerplate](http://html5boilerplate.com/)
-*   Compatible with IE11 and modern browsers
-*   Full internationalization support
-*   Optional [Sass](https://www.npmjs.com/package/node-sass) support for CSS design
-*   Optional WebSocket support with Spring Websocket
+*   Совместимый с IE11 и современными браузерами
+*   Полная поддержка интернациализации
+*   Опционально [Sass](https://www.npmjs.com/package/node-sass) поддержка CSS дизайна
+*   Опционально поддержка вебсокетов с помощью Spring Websockets
 
-With the great development workflow:
+С отличным процессом разработки:
 
-*   Easy installation of new JavaScript libraries with [Bower](http://bower.io/) or [Yarn](https://yarnpkg.com/)
-*   Build, optimization and live reload with [Gulp.js](http://www.gulpjs.com) or [Webpack](https://webpack.js.org/)
-*   Testing with [Karma](http://karma-runner.github.io/), [PhantomJS](http://phantomjs.org/) and [Protractor](http://www.protractortest.org)
+*   Легко устанавливать новые Javascript библиотеки с помощью [Bower](http://bower.io/) или [Yarn](https://yarnpkg.com/)
+*   Сборка, оптимизация и перегрузка страниц в реальном времени с [Gulp.js](http://www.gulpjs.com) or [Webpack](https://webpack.js.org/)
+*   Тестирование с [Karma](http://karma-runner.github.io/), [PhantomJS](http://phantomjs.org/) and [Protractor](http://www.protractortest.org)
 
-And what if a single Web page application isn't enough for your needs?
+А что если вам не достаточно одностраничных приложений для ваших задач?
 
-*   Support for the [Thymeleaf](http://www.thymeleaf.org/) template engine, to generate Web pages on the server side
+*   Поддержка движка [Thymeleaf](http://www.thymeleaf.org/), для генерации страниц на стороне сервера.
 
-## Technology stack on the server side
+## Стэк технологий на стороне сервера
 
-A complete [Spring application](http://spring.io/):
+Полностью [Spring приложение](http://spring.io/):
 
-*   [Spring Boot](http://projects.spring.io/spring-boot/) for easy application configuration
-*   [Maven](http://maven.apache.org/) or [Gradle](http://www.gradle.org/) configuration for building, testing and running the application
-*   ["development" and "production" profiles]({{ site.url }}/profiles/) (both for Maven and Gradle)
+*   [Spring Boot](http://projects.spring.io/spring-boot/) для легкой настройки приложения
+*   [Maven](http://maven.apache.org/) или [Gradle](http://www.gradle.org/) для сборки, тестирования и запуска приложения
+*   ["development" и "production" профили]({{ site.url }}/profiles/) (есть и для Maven, и для Gradle)
 *   [Spring Security](http://docs.spring.io/spring-security/site/index.html)
 *   [Spring MVC REST](http://spring.io/guides/gs/rest-service/) + [Jackson](https://github.com/FasterXML/jackson)
-*   Optional WebSocket support with Spring Websocket
+*   Опционально поддержка WebSocket с помощью Spring Websocket
 *   [Spring Data JPA](http://projects.spring.io/spring-data-jpa/) + Bean Validation
-*   Database updates with [Liquibase](http://www.liquibase.org/)
-*   [Elasticsearch](https://github.com/elastic/elasticsearch) support if you want to have search capabilities on top of your database
-*   [MongoDB](http://www.mongodb.org) support if you'd rather use a document-oriented NoSQL database instead of JPA
-*   [Cassandra](http://cassandra.apache.org/) support if you'd rather use a column-oriented NoSQL database instead of JPA
-*   [Kafka](http://kafka.apache.org/) support if you want to use a publish-subscribe messaging system
+*   Обновление базы данных с [Liquibase](http://www.liquibase.org/)
+*   [Elasticsearch](https://github.com/elastic/elasticsearch) если вам нужны возможности поиска данных в вашей базе
+*   [MongoDB](http://www.mongodb.org) если вам нужна поддержка документо-ориентированной NoSQL базы данных, вместо JPA
+*   [Cassandra](http://cassandra.apache.org/) если вам нужна граф-ориентирвоанная база данных NoSQL, вместо JPA
+*   [Kafka](http://kafka.apache.org/) Если вам нужны технологии публикации-чтения сообщений в вашей системе
 
-Ready to go into production:
+Есть все для запуска в прод:
 
-*   Monitoring with [Metrics](http://metrics.dropwizard.io/)
-*   Caching with [ehcache](http://ehcache.org/) (local cache), [hazelcast](http://www.hazelcast.com/) or [Infinispan](http://infinispan.org/)
-*   Optional HTTP session clustering with [hazelcast](http://www.hazelcast.com/)
-*   Optimized static resources (gzip filter, HTTP cache headers)
-*   Log management with [Logback](http://logback.qos.ch/), configurable at runtime
-*   Connection pooling with [HikariCP](https://github.com/brettwooldridge/HikariCP) for optimum performance
-*   Builds a standard WAR file or an executable JAR file
-*   Support for all major cloud providers: AWS, Cloud Foundry, Heroku, Kubernetes, Docker...
+*   Мониторинг с [Metrics](http://metrics.dropwizard.io/)
+*   Кэширование с [ehcache](http://ehcache.org/) (local cache), [hazelcast](http://www.hazelcast.com/) or [Infinispan](http://infinispan.org/)
+*   Опционально кластеризация http сессий [hazelcast](http://www.hazelcast.com/)
+*   Оптимизация статических ресурсов с (gzip фильтр, HTTP cache headers)
+*   Управление логами с [Logback](http://logback.qos.ch/), возможнос настраивать во время работы приложения
+*   Пул соединений с [HikariCP](https://github.com/brettwooldridge/HikariCP) для оптимальной производительности
+*   Сборка стандартного WAR файла или исполняемого JAR файла
+*   Поддержка всех известных облачных провайдеров: AWS, Cloud Foundry, Heroku, Kubernetes, Docker...
