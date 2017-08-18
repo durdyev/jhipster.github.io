@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Technology stack
+title: Стэк технологий JHipster, SPA Angular, Spring Boot etc.
 permalink: /tech-stack/
 redirect_from:
   - /tech_stack.html
