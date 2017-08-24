@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Training
+title: Русская документация, лицензия, авторы, стать автором
 permalink: /rudocs/
 sitemap:
     priority: 0.7
