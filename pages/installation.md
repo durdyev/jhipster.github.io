@@ -1,47 +1,49 @@
 ---
 layout: default
-title: Installing JHipster
+title: Установка JHipster
 permalink: /installation/
 sitemap:
     priority: 0.7
     lastmod: 2016-12-21T00:00:00-00:00
 ---
 
-# <i class="fa fa-cloud-download"></i> Installing JHipster
+# <i class="fa fa-cloud-download"></i> Установка JHipster
 
-## Installation types
+## Шаги установки
 
-We provide 4 ways of working with JHipster:
+Мы предоставляем 4 способа работы с JHipster:
 
-*   A "local installation with Yarn", which is the classical way of working with JHipster. Everything is installed on your machine, which can be a little complex to set up, but that's how most people usually work. In case of doubt, choose this installation.
-*   A "local installation with NPM", which is the same as classical "local installation with Yarn", but using NPM instead of [Yarn](https://yarnpkg.com/)
-*   A Vagrant-based "[development box](https://github.com/jhipster/jhipster-devbox)", with all tools already set up in a Ubuntu-based virtual machine.
-*   A "[Docker](https://www.docker.io/)" container, which brings you a lightweight, virtualized container with JHipster installed.
+*   Установка локально с помощью Yarn, является классическим способом работы с JHipster.
+*   Установка с помощью NPM, так же является классическим способо установки, как и установка с Yarn, но используется NPM.
+*   Установка Vagrant контейнера, со всеми необходимыми инструментами на виртуальную машину Ubuntu.
+*   Установка Docker контейнера, который предоставит вам легкий виртуальный контейнер, с установленным JHipster.
 
-## Local installation with Yarn (recommended for normal users)
+## Локальная установка с помощью Yarn (рекомендуемый способ для нормального пользователя)
 
-1.  Install Java 8 from [the Oracle website](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-2.  (Optional) Install a Java build tool.
-    *   Whether you choose to use [Maven](http://maven.apache.org/) or [Gradle](http://www.gradle.org/), you normally don't have to install anything, as JHipster will automatically install the [Maven Wrapper](https://github.com/takari/maven-wrapper) or the [Gradle Wrapper](http://gradle.org/docs/current/userguide/gradle_wrapper.html) for you.
-    *   If you don't want to use those wrappers, go to the official [Maven website](http://maven.apache.org/) or [Gradle website](http://www.gradle.org/) to do your own installation.
-3.  Install Git from [git-scm.com](http://git-scm.com/). We recommend you also use a tool like [SourceTree](http://www.sourcetreeapp.com/) if you are starting with Git.
-4.  Install Node.js from [the Node.js website](http://nodejs.org/) (prefer an LTS version)
-5.  Install Yarn from [the Yarn website](https://yarnpkg.com/en/docs/install)
-6.  Install Yeoman: `yarn global add yo`
-7.  Only for AngularJS 1, install Bower: `yarn global add bower`
-8.  Only for AngularJS 1, install Gulp: `yarn global add gulp-cli`
-9.  Install JHipster: `yarn global add generator-jhipster`
+1.  Установите Java 8 с [официального сайта Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+2.  (Опционально) Установить сборщик Java.
+    *   Выбирая [Maven](http://maven.apache.org/) или [Gradle](http://www.gradle.org/), вам обычно не нужно ничего устанавливать, так как JHipster автоматически установит [Maven Wrapper](https://github.com/takari/maven-wrapper) или [Gradle Wrapper](http://gradle.org/docs/current/userguide/gradle_wrapper.html) для вас.
+    *   Если вы хотите установить все вручную, скачайте и установите их с сайтов [Maven website](http://maven.apache.org/) или [Gradle website](http://www.gradle.org/).
+3.  Установите Git с сайта [git-scm.com](http://git-scm.com/). Мы рекомендуем вам так же использовать инструмент [SourceTree](http://www.sourcetreeapp.com/), если вы только начинаете работу с Git.
+4.  Установите Node.js с сайта [the Node.js website](http://nodejs.org/) (предпочтительно использовать LTS версию)
+5.  Установите Yarn с сайта [the Yarn website](https://yarnpkg.com/en/docs/install)
+6.  Установитье Yeoman: `yarn global add yo`
+7.  Только для AngularJS 1, установите Bower: `yarn global add bower`
+8.  Только для AngularJS 1, установите Gulp: `yarn global add gulp-cli`
+9.  Установите JHipster: `yarn global add generator-jhipster`
 
-Note: if you have problems to use these tools globally, be sure you have `$HOME/.config/yarn/global/node_modules/.bin` in your path.
+Подсказка: Если у вас есть проблема с использованием этих инструментов глобально, будьте уверены, что у вас задана переменная 
+`$HOME/.config/yarn/global/node_modules/.bin`.
 
-On Mac or Linux: ```export PATH="$PATH:`yarn global bin`:$HOME/.config/yarn/global/node_modules/.bin"```
+На Mac или Linux: ```export PATH="$PATH:`yarn global bin`:$HOME/.config/yarn/global/node_modules/.bin"```
 
-JHipster uses [Yeoman](http://yeoman.io/) for code generation.
-To find more information, tips and help, please have a look at [the Yeoman "getting starting" guide](http://yeoman.io/learning/index.html) and at the [Yarn documentation](https://yarnpkg.com/) before [submitting a bug](https://github.com/jhipster/generator-jhipster/issues?state=open).
+JHipster использует [Yeoman](http://yeoman.io/) для генерации кода.
+Чтобы найти больше информации, пожалуйста посмотрите [Yeoman "Начало работы](http://yeoman.io/learning/index.html) и на сайте 
+[Yarn документации](https://yarnpkg.com/), прежде чем [заводить bug](https://github.com/jhipster/generator-jhipster/issues?state=open).
 
-Now that JHipster is installed, your next step is to [create an application]({{ site.url }}/creating-an-app/)
+Сейчас когда JHipster установлен, следующий шаг - [создать приложение]({{ site.url }}/creating-an-app/)
 
-## Local installation with NPM (alternative to Yarn)
+## Локальная установка с NPM (отличный способ от Yarn)
 
 1.  Install Java 8 from [the Oracle website](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 2.  (Optional) Install a Java build tool.
