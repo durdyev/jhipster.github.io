@@ -45,131 +45,131 @@ JHipster использует [Yeoman](http://yeoman.io/) для генерац�
 
 ## Локальная установка с NPM (отличный способ от Yarn)
 
-1.  Install Java 8 from [the Oracle website](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-2.  (Optional) Install a Java build tool.
-    *   Whether you choose to use [Maven](http://maven.apache.org/) or [Gradle](http://www.gradle.org/), you normally don't have to install anything, as JHipster will automatically install the [Maven Wrapper](https://github.com/takari/maven-wrapper) or the [Gradle Wrapper](http://gradle.org/docs/current/userguide/gradle_wrapper.html) for you.
-    *   If you don't want to use those wrappers, go to the official [Maven website](http://maven.apache.org/) or [Gradle website](http://www.gradle.org/) to do your own installation.
-3.  Install Git from [git-scm.com](http://git-scm.com/). We recommend you also use a tool like [SourceTree](http://www.sourcetreeapp.com/) if you are starting with Git.
-4.  Install Node.js from [the Node.js website](http://nodejs.org/) (prefer an LTS version). This will also install `npm`, which is the node package manager we are using in the next commands.
-5.  (Recommended) Update NPM: `npm install -g npm`
-6.  Install Yeoman: `npm install -g yo`
-7.  Only for AngularJS 1, install Bower: `npm install -g bower`
-8.  Only for AngularJS 1, install Gulp: `npm install -g gulp-cli` (If you have previously installed a version of gulp globally, please run `npm rm -g gulp` to make sure your old version doesn't collide with `gulp-cli`)
-9.  Install JHipster: `npm install -g generator-jhipster`
-10.  (Optional) Install Yarn: `npm install -g yarn` (If so, after generating a project, `yarn install` will be launched instead of `npm install`)
+1.  Установить Java 8 с сайта [the Oracle website](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+2.  (Опционально) Установить сборщик Java.
+    *   Выбирая [Maven](http://maven.apache.org/) или [Gradle](http://www.gradle.org/), вам обычно не нужно ничего устанавливать, так как JHipster автоматически установит [Maven Wrapper](https://github.com/takari/maven-wrapper) или [Gradle Wrapper](http://gradle.org/docs/current/userguide/gradle_wrapper.html) для вас.
+    *   Если вы хотите установить все вручную, скачайте и установите их с сайтов [Maven website](http://maven.apache.org/) или [Gradle website](http://www.gradle.org/).
+3.  Установите Git с сайта [git-scm.com](http://git-scm.com/). Мы рекомендуем вам так же использовать инструмент [SourceTree](http://www.sourcetreeapp.com/), если вы только начинаете работу с Git.
+4.  Установите Node.js с сайта [the Node.js website](http://nodejs.org/) (предпочтительно использовать LTS версию)
+5.  (Рекомендовано) Обновить NPM: `npm install -g npm`
+6.  Установить Yeoman: `npm install -g yo`
+7.  Только для AngularJS 1, установить Bower: `npm install -g bower`
+8.  Только для AngularJS 1, установить Gulp: `npm install -g gulp-cli` (если у вас уже установлен Gulp, запустите эту команду `npm rm -g gulp`, чтобы быть увереным, что старая версия gulp не будет конфликтовать с `gulp-cli`)
+9.  Установите JHipster: `npm install -g generator-jhipster`
+10.  (Опционально) Установить Yarn: `npm install -g yarn` (Если установили, то после генерации проекта, `yarn install` будет запущен, вместо `npm install`)
 
-You can find here the [NPM documentation](https://docs.npmjs.com/).
+Здесь можно найти больше информации [NPM documentation](https://docs.npmjs.com/).
 
-## Vagrant box installation
+## Установка с помощью Vagrant box
 
-The [JHipster development box](https://github.com/jhipster/jhipster-devbox) project gives you a virtual machine with all the necessary tools to develop your JHipster project.
+[JHipster development box](https://github.com/jhipster/jhipster-devbox) предоставляет вам проект со всему необходимыми инструментами для разработки проекта JHipster.
 
-It's an easy way to get up and running very quickly with JHipster.
+Это самый простой, чтобы начать работу с JHipster.
 
-Besides JHipster, this virtual machine includes many development tools, as well as Docker, so you should have everything ready for working.
+Кроме JHipster, эта виртуальная машина включает в себя множество инструментов для разработки, так же как и Docker, у вас будет все необходимое для разработки.
 
-Please go to the [JHipster development box page](https://github.com/jhipster/jhipster-devbox) for installation and configuration information.
+Посетите сайт [JHipster development box page](https://github.com/jhipster/jhipster-devbox) для более подробной информации.
 
-## Docker installation (for advanced users only)
+## Установка Docker (только для продвинутых пользователей)
 
-_Please note: this Docker image is for running the JHipster generator inside a container. It's completely different from the [Docker and Docker Compose configurations]({{ site.url }}/docker-compose/) that JHipster will generate, which goal is to run your generated application inside a container_
+_Пожалуйста помните: этот Docker образ для запуска JHipster generator внутри контейнера. Это полностью отличается от [Docker и Docker Compose configurations]({{ site.url }}/docker-compose/) этот JHipster сгенерирует приложение внутри контейнера_
 
-### Information
+### Информация
 
-JHipster has a specific [Dockerfile](https://github.com/jhipster/generator-jhipster/blob/master/Dockerfile), which provides a [Docker](https://www.docker.io/) image.
+У JHipster есть специальный [Dockerfile](https://github.com/jhipster/generator-jhipster/blob/master/Dockerfile), который описывает [Docker](https://www.docker.io/) образ.
 
-It makes a Docker "Automated build" that is available on: [https://hub.docker.com/r/jhipster/jhipster/](https://hub.docker.com/r/jhipster/jhipster/)
+С помощью этого делаются автосборки, которые доступны здесь: [https://hub.docker.com/r/jhipster/jhipster/](https://hub.docker.com/r/jhipster/jhipster/)
 
-This image will allow you to run JHipster inside Docker.
+Этот образо дает возможность запускать JHipster внутри Docker контейнера.
 
-### Prerequisites
+### Необходимые требования
 
-This depends on your operating system.
+Зависит от вашей операционной системы.
 
-1.  **Linux:** Linux supports Docker out-of-box. You just need to follow the tutorial on the [Docker](https://docs.docker.com/installation/#installation) website.
-2.  **Mac & Windows:** install the [Docker Toolbox](https://www.docker.com/docker-toolbox) to get Docker installed easily.
+1.  **Linux:** Linux поддерживает Docker из коробки. Нужно только следовать инструкциям на этой странице [Docker](https://docs.docker.com/installation/#installation).
+2.  **Mac & Windows:** установка [Docker Toolbox](https://www.docker.com/docker-toolbox) очень проста.
 
-As the generated files are in your shared folder, they will not be deleted if you stop your Docker container. However, if you don't want Docker to keep downloading all the Maven and NPM dependencies every time you start the container, you should commit its state or mount a volume.
+Сгенерированные файлы будут доступны в ващей общей директории, и вы не сможете их удалить, до тех пор, пока запущен контейнер. Если вы не хотите чтобы Docker скачивал все зависимости Maven и NPM каждый раз, вам необходимо закоммитить состяение или смонтировать образ.
 
-<div class="alert alert-warning"><i>Warning: </i>
+<div class="alert alert-warning"><i>Осторожно: </i>
 
-Based on your OS, your <code>DOCKER_HOST</code> will differ. On Linux, it will be simply your localhost.
-For Mac/Windows, you will have to obtain the IP using following command: <code>docker-machine ip default</code>
-
-</div>
-
-<div class="alert alert-info"><i>Tip: </i>
-
-Kitematic is an easy-to-use graphical interface provided with the Docker Toolbox, which will makes this installation a lot easier.
+Зависит от ОС, ваш <code>DOCKER_HOST</code> будет разный. На Linux, это будет просто localhost.
+Для Mac/Windows, вам нужно настроить IP, используя: <code>docker-machine ip default</code>
 
 </div>
 
-On Linux, you might need to run the `docker` command as root user if your user is not part of docker group. It's a good idea to add your user to docker group so that you can run docker commands as a non-root user. Follow the steps on [http://askubuntu.com/a/477554](http://askubuntu.com/a/477554) to do so.
+<div class="alert alert-info"><i>Подсказка: </i>
 
-### Usage on Linux/Mac Windows (using Docker Toolbox)
+Kitematic это простой в использовании графический интерфейс Docker Toolbox, который сделает установки намного проще.
 
-#### Pull the image
+</div>
 
-Pull the latest JHipster Docker image:
+На Linux вам необходимо использовать команду запуска `docker` от имени root пользователя если ващ пользователь не принадлежит группе docker. Вы можете добавить вашего пользователя в группу docker и тогда использовать команды без root. Инструкция по настройке [http://askubuntu.com/a/477554](http://askubuntu.com/a/477554).
+
+### Использование на Linux/Mac Windows (используя Docker Toolbox)
+
+#### Загрузка образа
+
+Загрузка последнего образа JHipster Docker:
 
 `docker image pull jhipster/jhipster`
 
-Pull the development JHipster Docker image:
+Загрузка образа для разработки JHipster Docker image:
 
 `docker image pull jhipster/jhipster:master`
 
-You can see all tags [here](https://hub.docker.com/r/jhipster/jhipster/tags/)
+Вы можете посмотреть все доступные теги [here](https://hub.docker.com/r/jhipster/jhipster/tags/)
 
-#### Run the image
+#### Запуска образа
 
 <div class="alert alert-warning"><i>Warning: </i>
 
-If you are using Docker Machine on Mac or Windows, your Docker daemon has only limited access to your OS X or Windows file system. Docker Machine tries to auto-share your /Users (OS X) or C:\Users\&lt;username&gt; (Windows) directory. So you have to create the project folder under these directory to avoid any volume mounting issues.
+Если вы используете Docker Machine на Mac или Windows, ваш образ Docker daemon имеет ограниченный доступ к вашей OS X или Windows файловой системе. Docker Machine попытается автоматически получить общий доступ к директории /Users (OS X) или C:\Users\&lt;username&gt; (Windows) директории. Вам необходимо будет создать директорию проекта там, чтобы избежать автоматического монтирования.
 
 </div>
 
 
-Create a "jhipster" folder in your home directory:
+Создайте дирекотрию "jhipster" в вашей домашней директории:
 
 `mkdir ~/jhipster`
 
-Run the Docker image, with the following options:
+Запустите Docker со следующими параметрами:
 
-*   The Docker "/home/jhipster/app" folder is shared to the local "~/jhipster" folder
-*   Forward all ports exposed by Docker (8080 for the Java application, 9000 for BrowserSync, 3001 for the BrowserSync UI)
+*   Docker "/home/jhipster/app" директория расшарена с локальной "~/jhipster" директорией
+*   Перенаправьте все порты Docker (8080 для Java приложения, 9000 для BrowserSync, 3001 для BrowserSync UI)
 
 `docker container run --name jhipster -v ~/jhipster:/home/jhipster/app -v ~/.m2:/home/jhipster/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/jhipster`
 
-<div class="alert alert-info"><i>Tip: </i>
+<div class="alert alert-info"><i>Подсказка: </i>
 
-If you have already started the container once before, you do not need to run the above command, you can simply start/stop the existing container.
+Если вы уже запустили контейнер, вам не нужено еще раз запускать эту команду, просто используйте команды start/stop для существующего контейнера.
 
 </div>
 
-#### Check if the container is running
+#### Проверьте что контейнера работает
 
-To check that your container is running, use the command `docker container ps`:
+Чтобы проверить это, используйте команду `docker container ps`:
 
     CONTAINER ID    IMAGE               COMMAND                 CREATED         STATUS          PORTS                                                       NAMES
     4ae16c0539a3    jhipster/jhipster   "tail -f /home/jhipst"  4 seconds ago   Up 3 seconds    0.0.0.0:9000-3001->9000-3001/tcp, 0.0.0.0:8080->8080/tcp    jhipster
 
-#### Common operations
+#### Базовые операции
 
-*   To stop the container execute: `docker container stop jhipster`
-*   And to start again, execute: `docker container start jhipster`
+*   Чтобы остановить контейнер, используйте команду: `docker container stop jhipster`
+*   Чтобы запустить контейнер, используйте команду: `docker container start jhipster`
 
-In case you update the Docker image (rebuild or pull from the Docker hub), it's better to remove the existing container, and run the container all over again. To do so, first stop the container, remove it and then run it again:
+Если вы обновили образ Docker (rebuild or pull from the Docker hub), лучше удалить существующий контейнер, и заново запустить новый. Чтобы сделать это, сначала остановите контейнер, запустите его и затем:
 
 1.  `docker container stop jhipster`
 2.  `docker container rm jhipster`
 3.  `docker image pull jhipster/jhipster`
 4.  `docker container run --name jhipster -v ~/jhipster:/home/jhipster/app -v ~/.m2:/home/jhipster/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/jhipster`
 
-### Accessing the container
+### Доступ к контейнеру
 
-<div class="alert alert-warning"><i>Warning: </i>
+<div class="alert alert-warning"><i>Осторожно: </i>
 
-On Windows, you need to execute the Docker Quick Terminal as Administrator to be able to create symlinks during the `yarn install` step.
+На Windows, you need to execute the Docker Quick Terminal as Administrator to be able to create symlinks during the `yarn install` step.
 
 </div>
 
