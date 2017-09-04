@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Configuring a corporate proxy
+title: Настройка корпоративного прокси JHipster
 permalink: /configuring-a-corporate-proxy/
 redirect_from:
   - /configuring_a_corporate_proxy.html
 sitemap:
     priority: 0.7
-    lastmod: 2016-08-18T08:00:00-00:00
+    lastmod: 2017-09-04T08:00:00-00:00
 ---
 
-# <i class="fa fa-exchange"></i> Configuring a corporate proxy
+# <i class="fa fa-exchange"></i> Настройка корпоративного Proxy
 
 When JHipster is used in a company, you probably will need to configure all tools to bypass the corporate proxy.
 
