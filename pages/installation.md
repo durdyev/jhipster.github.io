@@ -169,55 +169,55 @@ Kitematic это простой в использовании графическ
 
 <div class="alert alert-warning"><i>Осторожно: </i>
 
-На Windows, you need to execute the Docker Quick Terminal as Administrator to be able to create symlinks during the `yarn install` step.
+На Windows, вам нужно запустить Docker Quick Terminal от имени Administrator чтобы была возможность создавать symlink во время `yarn install`.
 
 </div>
 
-The easiest way to log into the running container is by executing following command:
+Самый простой способ получить доступ к контейнеру - это выполнить команду:
 
 `docker container exec -it <container_name> bash`
 
-If you copy-pasted the above command to run the container, notice that you have to specify `jhipster` as the container name:
+Если вы скопировали эту команду, не забудьте заменить на `jhipster` container_name:
 
 `docker container exec -it jhipster bash`
 
-You will log in as the "jhipster" user.
+Вы войдете как пользователь "jhipster".
 
-If you want to log in as "root", as the `sudo` command isn't available in Ubuntu Xenial, you need to run:
+Если вам нужно войти как пользователь "root", так как команда sudo не доступна в Ubuntu Xenial, вам нужно выполнить:
 
 `docker container exec -it --user root jhipster bash`
 
-### Your first project
+### Ваш первый проект
 
-You can then go to the /home/jhipster/app directory in your container, and start building your app inside Docker:
+Вы можете перейти в директорию /home/jhipster/app внутри контейнера, и запустить приложение внутри Docker:
 
 `cd /home/jhipster/app`
 
 `jhipster`
 
-<div class="alert alert-info"><i>Tip: </i>
+<div class="alert alert-info"><i>Подсказка: </i>
 
-If you are having issues with Yarn, you can use <code>jhipster --npm</code>, to use NPM instead of Yarn.
+Если у вас возникли проблемы с Yarn, можно использовать это <code>jhipster --npm</code>, чтобы использовать NPM вместо Yarn.
 
 </div>
 
-Once your application is created, you can run all the normal gulp/bower/maven commands, for example:
+Когда ваше приложение создано, вы можете выполнять gulp/bower/maven команды, например:
 
 `./mvnw`
 
-**Congratulations! You've launched your JHipster app inside Docker!**
+**Поздравляем! Вы только запустили JHipster внутри Docker!**
 
-On your host machine, you should be able to :
+На хост машине, вам будет доступно :
 
-*   Access the running application at `http://DOCKER_HOST:8080`
-*   Get all the generated files inside your shared folder
+*   Доступ к запущенному приложению по URL `http://DOCKER_HOST:8080`
+*   Доступ ко всем сгенерированным папка в общей папке
 
-<div class="alert alert-warning"><i>Warning: </i>
-    By default, Docker is not installed inside the <code>jhipster/jhipster</code> image.
+<div class="alert alert-warning"><i>Осторожно: </i>
+    По умолчанию, Docker не установлен внутри образа the <code>jhipster/jhipster</code>.
     <br/>
-    So you won't be able to:
+    Вы не сможете сделать:
     <ul>
-        <li>use the docker-compose files</li>
-        <li>build a Docker image (Maven goal: <code>docker:build</code> or Gradle task: <code>buildDocker</code>)</li>
+        <li>использовать docker-compose файлы</li>
+        <li>собрать Docker image (Maven goal: <code>docker:build</code> or Gradle task: <code>buildDocker</code>)</li>
     </ul>
 </div>
